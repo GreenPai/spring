@@ -13,12 +13,13 @@ public class Sub1Controller {
 
     @GetMapping("/sub1/greeting")
     public String greeting(){
-        return "/sub1/greeting";
+        return "redirect:/sub1/welcome";
     }
 
     @GetMapping("/sub1/hello")
     public String hello(){
         return "/sub1/hello";
+
     }
 
 }
