@@ -1,0 +1,939 @@
+2025-03-14T17:04:48.089+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 20256 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:04:48.092+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:04:48.139+09:00  INFO 20256 --- [greendae] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-14T17:04:48.141+09:00  INFO 20256 --- [greendae] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-14T17:04:48.730+09:00  WARN 20256 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:04:49.037+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:04:49.048+09:00  INFO 20256 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:04:49.048+09:00  INFO 20256 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:04:49.080+09:00  INFO 20256 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:04:49.081+09:00  INFO 20256 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+2025-03-14T17:04:49.155+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:04:49.465+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:04:49.493+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:04:49.500+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 1.982 seconds (process running for 2.631)
+2025-03-14T17:05:03.857+09:00  INFO 20256 --- [greendae] [http-nio-8080-exec-8] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:05:03.858+09:00  INFO 20256 --- [greendae] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:05:03.858+09:00  INFO 20256 --- [greendae] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-14T17:07:50.414+09:00  INFO 20256 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-03-14T17:07:50.417+09:00  INFO 20256 --- [greendae] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:07:50.485+09:00  INFO 20256 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:07:50.542+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 20256 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:07:50.542+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:07:50.746+09:00  WARN 20256 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:07:50.785+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:07:50.785+09:00  INFO 20256 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:07:50.786+09:00  INFO 20256 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:07:50.799+09:00  INFO 20256 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:07:50.799+09:00  INFO 20256 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2025-03-14T17:07:50.818+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:07:50.885+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:07:50.891+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:07:50.895+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.377 seconds (process running for 184.025)
+2025-03-14T17:07:50.896+09:00  INFO 20256 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:10:02.526+09:00  INFO 20256 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
+2025-03-14T17:10:02.527+09:00  INFO 20256 --- [greendae] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:10:02.591+09:00  INFO 20256 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:10:02.642+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 20256 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:10:02.643+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:10:02.795+09:00  WARN 20256 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:10:02.829+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:10:02.830+09:00  INFO 20256 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:10:02.830+09:00  INFO 20256 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:10:02.842+09:00  INFO 20256 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:10:02.842+09:00  INFO 20256 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2025-03-14T17:10:02.858+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:10:02.918+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:10:02.925+09:00  INFO 20256 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:10:02.928+09:00  INFO 20256 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.306 seconds (process running for 316.059)
+2025-03-14T17:10:02.929+09:00  INFO 20256 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:12:14.814+09:00  INFO 20256 --- [greendae] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:12:14.884+09:00  INFO 20256 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:12:18.068+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 9056 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:12:18.070+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:12:18.106+09:00  INFO 9056 --- [greendae] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-14T17:12:18.107+09:00  INFO 9056 --- [greendae] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-14T17:12:18.678+09:00  WARN 9056 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:12:19.161+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:12:19.177+09:00  INFO 9056 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:12:19.178+09:00  INFO 9056 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:12:19.222+09:00  INFO 9056 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:12:19.222+09:00  INFO 9056 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1115 ms
+2025-03-14T17:12:19.330+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:12:19.668+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:12:19.694+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:12:19.702+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 2.0 seconds (process running for 2.455)
+2025-03-14T17:12:32.191+09:00  INFO 9056 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:12:32.191+09:00  INFO 9056 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:12:32.192+09:00  INFO 9056 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-14T17:12:49.317+09:00  INFO 9056 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:12:49.323+09:00  INFO 9056 --- [greendae] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:12:49.397+09:00  INFO 9056 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:12:49.464+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 9056 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:12:49.464+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:12:49.662+09:00  WARN 9056 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:12:49.695+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:12:49.696+09:00  INFO 9056 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:12:49.696+09:00  INFO 9056 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:12:49.708+09:00  INFO 9056 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:12:49.708+09:00  INFO 9056 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 241 ms
+2025-03-14T17:12:49.725+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:12:49.784+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:12:49.791+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:12:49.794+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.358 seconds (process running for 32.547)
+2025-03-14T17:12:49.796+09:00  INFO 9056 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:13:32.387+09:00  INFO 9056 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:13:32.388+09:00  INFO 9056 --- [greendae] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:13:32.451+09:00  INFO 9056 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:13:32.502+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 9056 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:13:32.502+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:13:32.665+09:00  WARN 9056 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:13:32.699+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:13:32.700+09:00  INFO 9056 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:13:32.701+09:00  INFO 9056 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:13:32.716+09:00  INFO 9056 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:13:32.716+09:00  INFO 9056 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
+2025-03-14T17:13:32.730+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:13:32.782+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:13:32.789+09:00  INFO 9056 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:13:32.793+09:00  INFO 9056 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.31 seconds (process running for 75.545)
+2025-03-14T17:13:32.793+09:00  INFO 9056 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:13:38.324+09:00  INFO 9056 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:13:38.324+09:00  INFO 9056 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:13:38.325+09:00  INFO 9056 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:15:39.263+09:00  INFO 9056 --- [greendae] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:15:39.330+09:00  INFO 9056 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:15:41.476+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:15:41.478+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:15:41.518+09:00  INFO 14892 --- [greendae] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-14T17:15:41.519+09:00  INFO 14892 --- [greendae] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-14T17:15:42.054+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:15:42.355+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:15:42.365+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:15:42.365+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:15:42.399+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:15:42.399+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 880 ms
+2025-03-14T17:15:42.473+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:15:42.788+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:15:42.813+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:15:42.820+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 1.702 seconds (process running for 2.157)
+2025-03-14T17:15:59.500+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:15:59.500+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:15:59.501+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:17:14.649+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 123 class path changes (0 additions, 0 deletions, 123 modifications)
+2025-03-14T17:17:14.653+09:00  INFO 14892 --- [greendae] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:17:14.745+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:17:14.811+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:17:14.811+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:17:15.014+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:17:15.055+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:17:15.056+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:17:15.056+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:17:15.072+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:17:15.072+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 258 ms
+2025-03-14T17:17:15.097+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:17:15.163+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:17:15.170+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:17:15.174+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.387 seconds (process running for 94.51)
+2025-03-14T17:17:15.175+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:17:16.612+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 123 class path changes (0 additions, 0 deletions, 123 modifications)
+2025-03-14T17:17:16.613+09:00  INFO 14892 --- [greendae] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:17:16.677+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:17:16.734+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:17:16.734+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:17:16.892+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:17:16.928+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:17:16.928+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:17:16.929+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:17:16.940+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:17:16.940+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 205 ms
+2025-03-14T17:17:16.955+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:17:17.009+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:17:17.015+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:17:17.019+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.304 seconds (process running for 96.355)
+2025-03-14T17:17:17.019+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:17:46.654+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:17:46.654+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:17:46.655+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:17:47.288+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 123 class path changes (0 additions, 0 deletions, 123 modifications)
+2025-03-14T17:17:47.288+09:00  INFO 14892 --- [greendae] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:17:47.350+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:17:47.402+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:17:47.402+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:17:47.550+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:17:47.580+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:17:47.581+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:17:47.581+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:17:47.593+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:17:47.593+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 189 ms
+2025-03-14T17:17:47.607+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:17:47.656+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:17:47.664+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:17:47.667+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.283 seconds (process running for 127.004)
+2025-03-14T17:17:47.668+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:17:47.994+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:17:47.994+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:17:47.995+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:18:03.502+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 123 class path changes (0 additions, 0 deletions, 123 modifications)
+2025-03-14T17:18:03.503+09:00  INFO 14892 --- [greendae] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:18:03.567+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:18:03.615+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:18:03.615+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:18:03.774+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:18:03.807+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:18:03.808+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:18:03.808+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:18:03.820+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:18:03.820+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2025-03-14T17:18:03.835+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:18:03.890+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:18:03.896+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:18:03.899+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.305 seconds (process running for 143.236)
+2025-03-14T17:18:03.900+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:18:12.014+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:18:12.014+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:18:12.015+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:19:29.490+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 124 class path changes (1 addition, 0 deletions, 123 modifications)
+2025-03-14T17:19:29.491+09:00  INFO 14892 --- [greendae] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:19:29.557+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:19:29.604+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:19:29.604+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:19:29.759+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:19:29.788+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:19:29.789+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:19:29.789+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:19:29.800+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:19:29.800+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2025-03-14T17:19:29.814+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:19:29.868+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:19:29.875+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:19:29.878+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.293 seconds (process running for 229.215)
+2025-03-14T17:19:29.879+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:19:54.644+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:19:54.645+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:19:54.646+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:22:10.627+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:22:10.628+09:00  INFO 14892 --- [greendae] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:22:10.691+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:22:10.746+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:22:10.746+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:22:10.908+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:22:10.941+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:22:10.941+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:22:10.941+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:22:10.951+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:22:10.951+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2025-03-14T17:22:10.967+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:22:11.031+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:22:11.038+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:22:11.041+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.314 seconds (process running for 390.378)
+2025-03-14T17:22:11.042+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:22:19.823+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:22:19.823+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:22:19.823+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-14T17:25:16.669+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-03-14T17:25:16.670+09:00  INFO 14892 --- [greendae] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:25:16.733+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:25:16.784+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:25:16.785+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:25:16.938+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:25:16.973+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:25:16.974+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:25:16.974+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:25:16.985+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:25:16.985+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2025-03-14T17:25:17.002+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:25:17.074+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:25:17.082+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:25:17.085+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.319 seconds (process running for 576.421)
+2025-03-14T17:25:17.086+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:25:23.184+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:25:23.184+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:25:23.185+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:26:07.704+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-10] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-10] Exception processing template "/intro/opganizationchart": Error resolving template [/intro/opganizationchart], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/opganizationchart], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:26:07.712+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/greendae] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/opganizationchart], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/opganizationchart], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:26:56.577+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:26:56.579+09:00  INFO 14892 --- [greendae] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:26:56.643+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:26:56.694+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:26:56.694+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:26:56.846+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:26:56.871+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:26:56.872+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:26:56.872+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:26:56.883+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:26:56.883+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2025-03-14T17:26:56.898+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:26:56.949+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:26:56.955+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:26:56.958+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.284 seconds (process running for 676.295)
+2025-03-14T17:26:56.959+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:26:57.198+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:26:57.198+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:26:57.199+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:28:50.025+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:28:50.026+09:00  INFO 14892 --- [greendae] [Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:28:50.089+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:28:50.142+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:28:50.142+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:28:50.294+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:28:50.323+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:28:50.324+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:28:50.324+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:28:50.334+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:28:50.334+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2025-03-14T17:28:50.349+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:28:50.416+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:28:50.423+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:28:50.427+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.303 seconds (process running for 789.763)
+2025-03-14T17:28:50.427+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:28:56.031+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:28:56.031+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:28:56.032+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:28:56.041+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "/intro/education": Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:28:56.043+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/greendae] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:29:11.586+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-4] Exception processing template "/intro/education": Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:29:11.587+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/greendae] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/intro/education], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:29:12.529+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:29:12.529+09:00  INFO 14892 --- [greendae] [Thread-39] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:29:12.592+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:29:12.645+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:29:12.645+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:29:12.786+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:29:12.812+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:29:12.813+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:29:12.813+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:29:12.823+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:29:12.823+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2025-03-14T17:29:12.837+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:29:12.892+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:29:12.901+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:29:12.905+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.278 seconds (process running for 812.242)
+2025-03-14T17:29:12.907+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:29:15.217+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:29:15.218+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:29:15.218+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-14T17:30:40.808+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:30:40.809+09:00  INFO 14892 --- [greendae] [Thread-43] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:30:40.870+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:30:40.923+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:30:40.923+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:30:41.065+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:30:41.091+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:30:41.091+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:30:41.091+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:30:41.101+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:30:41.101+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2025-03-14T17:30:41.114+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:30:41.167+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:30:41.174+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:30:41.177+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.271 seconds (process running for 900.513)
+2025-03-14T17:30:41.178+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:31:02.465+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:31:02.465+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:31:02.466+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:31:02.477+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "/campus/notice": Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:31:02.480+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/greendae] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:31:09.507+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "/campus/notice": Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:31:09.507+09:00 ERROR 14892 --- [greendae] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/greendae] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/campus/notice], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-14T17:31:10.446+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:31:10.447+09:00  INFO 14892 --- [greendae] [Thread-47] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:31:10.508+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:31:10.560+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:31:10.560+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:31:10.719+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:31:10.745+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:31:10.745+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:31:10.745+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:31:10.756+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:31:10.756+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2025-03-14T17:31:10.769+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:31:10.823+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:31:10.829+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:31:10.833+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.29 seconds (process running for 930.169)
+2025-03-14T17:31:10.834+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:31:27.283+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:31:27.283+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:31:27.284+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:32:25.680+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:32:25.681+09:00  INFO 14892 --- [greendae] [Thread-51] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:32:25.746+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:32:25.798+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:32:25.798+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:32:25.973+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:32:26.002+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:32:26.003+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:32:26.003+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:32:26.013+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:32:26.013+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2025-03-14T17:32:26.028+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:32:26.092+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:32:26.099+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:32:26.102+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.322 seconds (process running for 1005.439)
+2025-03-14T17:32:26.102+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:32:38.893+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:32:38.894+09:00  INFO 14892 --- [greendae] [Thread-55] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:32:38.960+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:32:39.010+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:32:39.010+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:32:39.156+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:32:39.180+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:32:39.181+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:32:39.181+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:32:39.190+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:32:39.190+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2025-03-14T17:32:39.205+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:32:39.260+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:32:39.266+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:32:39.270+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.274 seconds (process running for 1018.607)
+2025-03-14T17:32:39.270+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:32:43.535+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:32:43.535+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:32:43.536+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:33:09.961+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-14T17:33:09.962+09:00  INFO 14892 --- [greendae] [Thread-59] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:33:10.023+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:33:10.073+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:33:10.073+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:33:10.231+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:33:10.256+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:33:10.256+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:33:10.256+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:33:10.266+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:33:10.266+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2025-03-14T17:33:10.280+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:33:10.330+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:33:10.337+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:33:10.339+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.284 seconds (process running for 1049.676)
+2025-03-14T17:33:10.340+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:34:45.429+09:00  INFO 14892 --- [greendae] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 126 class path changes (1 addition, 1 deletion, 124 modifications)
+2025-03-14T17:34:45.429+09:00  INFO 14892 --- [greendae] [Thread-63] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:34:45.493+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-14T17:34:45.545+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Starting GreendaeApplication using Java 17.0.12 with PID 14892 (C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\lotte6\workspace\spring\greendae)
+2025-03-14T17:34:45.545+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-14T17:34:45.687+09:00  WARN 14892 --- [greendae] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.greendae]' package. Please check your configuration.
+2025-03-14T17:34:45.713+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-14T17:34:45.714+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-14T17:34:45.714+09:00  INFO 14892 --- [greendae] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-14T17:34:45.723+09:00  INFO 14892 --- [greendae] [restartedMain] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring embedded WebApplicationContext
+2025-03-14T17:34:45.723+09:00  INFO 14892 --- [greendae] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2025-03-14T17:34:45.736+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-14T17:34:45.784+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-14T17:34:45.791+09:00  INFO 14892 --- [greendae] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/greendae'
+2025-03-14T17:34:45.794+09:00  INFO 14892 --- [greendae] [restartedMain] kr.co.greendae.GreendaeApplication       : Started GreendaeApplication in 0.266 seconds (process running for 1145.13)
+2025-03-14T17:34:45.794+09:00  INFO 14892 --- [greendae] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-14T17:34:59.320+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/greendae]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-14T17:34:59.320+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-14T17:34:59.321+09:00  INFO 14892 --- [greendae] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-14T17:35:20.800+09:00  INFO 14892 --- [greendae] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-14T17:35:20.866+09:00  INFO 14892 --- [greendae] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
