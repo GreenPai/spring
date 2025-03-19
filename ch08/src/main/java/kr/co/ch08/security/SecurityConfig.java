@@ -2,12 +2,14 @@ package kr.co.ch08.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+@EnableMethodSecurity(securedEnabled = true)
 @Configuration
 public class SecurityConfig {
 
@@ -28,9 +30,21 @@ public class SecurityConfig {
                 .invalidateHttpSession(true)
                 .logoutSuccessUrl("/user/login?code=101")); //세션 무효화 후 이동
 
-        // 인가 설정
+        /*
+        *   인가 설정
+        *       - MyUserDetails 권한 목록 생성하는 메서드(getAuthorities)에서 접두어로 ROLE_ 입력해야
+        *         hasRole, hasAnyRole 권한 처리됨
+        *       - Spring Security는 기본적으로 인가 페이지에 대해 기본적으로 로그인 페이지로 redirect 수행
+        *           예) 매니저 페이지에서 로그인 창 이동 -> 로그인 후 매니저 페이지로 이동
+        *
+        *
+        * */
+
         http.authorizeHttpRequests(authorize-> authorize
                 .requestMatchers("/").permitAll() // ("/") 요청에 대해서 모든 요청을 허락해준다.
+                .requestMatchers("/admin/**").hasRole("ADMIN")
+                .requestMatchers("/manager/**").hasAnyRole("ADMIN","MANAGER") // hasAnyRole : 2가지 이상 권한을 설정할 때
+                .requestMatchers("/staff/**").hasAnyRole("ADMIN","MANAGER","STAFF")
                 .anyRequest().permitAll());
 
         // 기타 보안 설정

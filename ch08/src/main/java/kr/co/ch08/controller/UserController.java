@@ -8,6 +8,7 @@ import kr.co.ch08.service.UserService;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -40,6 +41,12 @@ public class UserController {
         return "redirect:/user/login";
     }
 
+    /*
+    * 인가 처리 어노테이션
+    * 관리자, 매니저만 호출가능
+    * */
+
+    @PreAuthorize("hasRole('ADMIN')  or hasRole('MANAGER')")
     @GetMapping("/user/info")
     public String info(Model model){
 
